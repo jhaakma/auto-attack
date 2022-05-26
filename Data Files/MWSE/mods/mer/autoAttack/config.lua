@@ -19,7 +19,8 @@ this.mcmDefault = {
     enabled = true,
     logLevel = "INFO",
     hotKey = {
-        keyCode = tes3.scanCode.e,
+        keyCode = tes3.scanCode.q,
+        isAltDown = true
     },
     maxSwing = 100,
     displayMessages = true
