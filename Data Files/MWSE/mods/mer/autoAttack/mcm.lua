@@ -3,18 +3,18 @@ local config = util.config
 local mcmConfig = mwse.loadConfig(config.configPath, config.mcmDefault)
 
 local LINKS_LIST = {
-    -- {
-    --     text = "Release history",
-    --     url = "https://github.com/jhaakma/drip/releases"
-    -- },
+    {
+        text = "Release history",
+        url = "https://github.com/jhaakma/auto-attack/releases"
+    },
     -- {
     --     text = "Wiki",
-    --     url = "https://github.com/jhaakma/crafting-framework/wiki"
+    --     url = "https://github.com/jhaakma/auto-attack/wiki"
     -- },
-    -- {
-    --     text = "Nexus Page",
-    --     url = "https://www.nexusmods.com/morrowind/mods/51242"
-    -- },
+    {
+        text = "Nexus Page",
+        url = "https://www.nexusmods.com/morrowind/mods/51348"
+    },
     {
         text = "Buy me a coffee",
         url = "https://ko-fi.com/merlord"
